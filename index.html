@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huellitas en mi vida</title>
+  <link rel="icon" type="image/x-icon" href="img/logotipo-menu.jpg"/>
+  <!--ESTILOS CSS-->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!--ESTILOS FONT-->
+  <link rel="stylesheet" href="css/font.css">
+  <!--ESTILOS CSS-->
+  <link rel="stylesheet" href="js/javascript.jss">
+  <!--BOOTSTRAP 5.0.0-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+  <!--ICONOS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Simple line icons-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet"/>
+  <!--Jquery CDN-->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <!--Icono Precarga-->
+  <script>
+    $(window).on("load", function(){
+        $(".contenidos").css("opacity", 1) 
+        $("#precarga").css("display", "none");
+    });
+  </script>
+</head>
+<body>
+    <div id="precarga">
+        <img src="img/precarga.gif" alt="" width="200" height="200">
+    </div>
+<div class="contenidos">
+<!--INICIO NAVEGADOR-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container"> <!--style="background-color: red;"-->
+                
+            <a href="index.html" class="px-4">
+                <img src="img/logotipo-menu.jpg" alt="">
+            </a>
+            <a class="navbar-brand" href="#page-top">Huellitas en Mi Vida</a>
+
+            <button class="navbar-toggler navbar-toggler-right" style="border: none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="bi bi-three-dots"></span></button>
+
+                <div class="collapse navbar-collapse " id="navbarResponsive" style="font-family: Roboto-Bold;">
+                    <ul class="navbar-nav ms-auto my-0 my-lg-3">
+                        <li class="nav-item"><a class="nav-link p-2" style="color:#da0101" href="index.html">Inicio</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle p-2" href="nosotros.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="nosotros.html#mision">Misión</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#vision">Visión</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#principios">Principios y valores</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#nuestra-historia">Nuestra Historia</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#nuestro-equipo">Nuestro Equipo</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#convenios">Convenios y alianzas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle p-2" href="nuestro_trabajo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestro Trabajo</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html">Nuestro Trabajo</li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#eventos">Eventos y Actividades</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#galeria">Galeria</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#adopciones">Adopciones</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#sebusca">Se Busca</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#casos">Casos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link p-2" href="donacion.html">Donación</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="campañas.html">Campañas</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="redes_sociales.html">Redes Sociales</a></li>
+                    
+                    </ul>
+                    <div class="col-md-3 text-end"> 
+                <a class="btn btn-danger" href="login.php" style="font-family: Roboto-Thin; border-radius: 50px;">Iniciar Sesion</a>
+          </div>
+                </div>
+        </div>
+        </div>
+    </nav>
+<!--FIN NAVEGADOR-->
+<!--INICIO REDES SOCIALES FLOTANTES-->
+<div class="flotante">
+    <input type="checkbox" id="btn-mas">
+    <div class="redes">
+        <a href="https://m.facebook.com/HuellitasEnMiVidaSC" target="_blank" class="bi bi-facebook"></a>
+        <a href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank" class="bi bi-whatsapp"></a>
+        <a href="https://www.instagram.com/huellitasenmivida/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="bi bi-instagram"></a>
+        <a href="https://www.tiktok.com/@huellitas_en_mi_vida?_t=8WEQC2BFahJ&_r=1" target="_blank" class="bi bi-tiktok"></a>
+        <a href="https://goo.gl/maps/sSVHuHSjg4PcWm4x5" class="bi bi-geo-alt-fill"></a>
+        <a href="donacion.html" target="_blank" class="bi bi-heart-fill"></a>
+    </div>
+    <div class="btn-mas">
+        <label for="btn-mas" class="bi bi-plus"></label>
+    </div>
+</div>
+<!--FIN REDES SOCIALES FLOTANTES-->
+<!--INICIO CARATULA INICIO-->
+<div class="banner">
+    <div class="banner-content">
+        <section class="caratula">
+        <div class="container"> 
+            <div class="row">
+                <div class="caratula-text">
+                    <h1 style="font-family: Roboto-Thin;">Huellitas <small style="font-family: Roboto-Bold;">En Mi Vida</small></h1>
+                    <p class="animate-text">
+                        <span style="font-family: Roboto-Light;">Albergue de Mascotas</span>
+                        <span style="font-family: Roboto-Light;">Ayudamos y Cuidamos</span>
+                        <span style="font-family: Roboto-Light;">Adopciones</span>
+                        <span style="font-family: Roboto-Light;">Esterilizaciones</span>
+                        <span style="font-family: Roboto-Light;">Voluntariados</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+</div>
+<!--FIN CARATULA INICIO-->
+<!--INICIO QUE HACEMOS-->
+<section class="titulo" id="services" style="background-image: url(img/fondo.png);">
+  <div class="container px-4 px-lg-5" >
+      <h2 class="text-center mt-0" style="font-family: Roboto-Bold;">¿Qué hacemos?</h2>
+      <hr class="divider">
+      <p class="text-center" style="font-size: 25px">Nosotros somos una entidad con la finalidad de velar por el <small style="font-family: Roboto-Bold; color: #da0101;">bienestar de los animales en Santa Cruz</small>, lo hacemos de distintas maneras. </p>
+  </div>
+</section>
+<section class="pb-5" style="background-image: url(img/fondo.png);">
+<div class="container">
+<div class="row">
+    <div class="col-sm-12 col-md-4 pt-3 pb-3">
+        <div class="card" style="width: 25rem;">
+            <img src="img/adopciones.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-danger" style="font-family: Roboto-Bold;">Adopciones</h5>
+              <p class="card-text texto-justificado">Una adopción de una mascota que ha sido rescatado de las calles, de malos hogares, entre otros, visita nuestras redes y conocelos.</p>
+              <a href="nuestro_trabajo.html#adopciones" class="btn btn-outline-danger">Quiero adoptar</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-12 col-md-4 pt-3 pb-3">
+        <div class="card" style="width: 25rem;">
+            <img src="img/sebusca.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-danger" style="font-family: Roboto-Bold;">Se busca</h5>
+              <p class="card-text texto-justificado">Si viste una mascota sola en la calle, nerviosa o asustada, es posible que se encuentre perdida, visita nuestra redes, quiza la esten buscando. <br></p>
+              <a href="nuestro_trabajo.html#sebusca" class="btn btn-outline-danger">Saber más</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-12 col-md-4 pt-3 pb-3">
+        <div class="card" style="width: 25rem;">
+            <img src="img/casos.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-danger" style="font-family: Roboto-Bold;">Casos</h5>
+              <p class="card-text texto-justificado">En cualquier momento uno puede encontrarse con un perro callejero o decenas de ellos, todo depende de la zona por donde se transite.</p>
+              <a href="nuestro_trabajo.html#casos" class="btn btn-outline-danger">Saber más</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-12 col-md-4 pt-3 pb-3">
+        <div class="card" style="width: 25rem;">
+            <img src="img/solidarios.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-danger" style="font-family: Roboto-Bold;">Solidarios</h5>
+              <p class="card-text texto-justificado">Puedes ayudarnos de diferentes formas: donando, con comida, con ropa, etc.</p>
+              <a href="#" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Quiero ayudar</a>
+            </div>
+          </div>
+          <!-- Modal Solidarios -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Puedes ayudar donando</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body row justify-content-center">
+                        <p>Tu donación ayudara a nuestras mascotas con la compra de comida y ropa ademas de refacciones del albergue para que vivan mejor.</p>
+                        <img src="img/qr.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success"><a href="https://wa.me/59169154788?text=Hola%20Albergue%20%22Huellitas%20En%20Mi%20Vida%22%20quisiera%20donar%20%C2%BFque%20necesito?" style="text-decoration: none; color:#fff;">Contactar por Whatsapp</a></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div>
+    <div class="col-sm-6 col-md-4 pt-3 pb-3">
+        <div class="card" style="width: 25rem;">
+            <img src="img/esterilizacion.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-danger" style="font-family: Roboto-Bold;">Esterilizacion</h5>
+              <p class="card-text texto-justificado">Ayuda con la esterilización de una mascota, solo comunicate con nosotros.</p>
+              <a href="https://wa.me/59169154788?text=Hola%20Albergue%20%22Huellitas%20En%20Mi%20Vida%22%20quisiera%20esterilizar%20a%20una%20mascota%20%C2%BFque%20requisitos%20necesito?%C2%BFcomo%20puedo%20hacerlo?" class="btn btn-outline-danger">Quiero ayudar</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-6 col-md-4 pt-3 pb-3">
+        <div class="card" style="width: 25rem;">
+            <img src="img/voluntariado.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-danger" style="font-family: Roboto-Bold;">Voluntariado</h5>
+              <p class="card-text texto-justificado">Puedes ser parte del albergue, ayudando y haciendo felices a las mascotas, contactanos.</p>
+              <a href="https://wa.me/59169154788?text=Hola%20Albergue%20%22Huellitas%20En%20Mi%20Vida%22%20quisiera%20ser%20voluntario%20en%20el%20Albergue%20%C2%BFque%20requisitos%20necesito?%C2%BFcomo%20puedo%20hacerlo?" class="btn btn-outline-danger">Quiero ser voluntario</a>
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+</section>
+<!--FIN QUE HACEMOS-->
+<!--INICIO FUNDADORA-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="img/fundadora.jpg" alt="..."/></div>
+            <div class="col-md-6">
+                <div class="small mb-1">Fundadora</div>
+                <h1 class="display-5 fw-bolder" style="font-family: Roboto-Bold;">Milda Pedrazas</h1>
+                <div class="fs-5 mb-5">
+                    <span>Año: 2015</span>
+                </div>
+                <p class="lead texto-justificado mb-5">El albergue “Huellitas en mi vida” se fundó en el año 2015 con el fin de<small style="font-family: Roboto-Bold; color: #da0101;"> rescatar, rehabilitar, esterilizar</small> a animalitos que se encuentren en situaciones dificiles o simplemente para darle un mejor estilo de vida.</p>
+                <div class="d-flex">
+                        <a href="nosotros.html#nuestra-historia" class="btn btn-danger" >Saber más</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--FIN FUNDADORA-->
+<!--INICIO TESTIMONIOS-->
+<section class="titulo" id="services">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0" style="font-family: Roboto-Bold;">Testimonios</h2>
+        <hr class="divider">
+        <p class="text-center" style="font-size: 40px; font-family: Roboto-Light;">Lo que <small style="font-family: Roboto-Bold; color: #da0101;">nuestra familia</small> esta diciendo...</p>
+    </div>
+</section>
+<section class="testimonioscard">
+    <div class="card-testimonios">
+        <div class="face front">
+            <img src="img/testimonio_1.jpeg" alt="">
+            <h5 style="font-family: Roboto-Thin;">Gabriela: <small style="font-family: Roboto-Bold;">Donación</small></h5>
+        </div>
+        <div class="face back">
+            <h5 style="font-family: Roboto-Bold;">Gabriela: <small style="font-family: Roboto-Thin;">Donación</small></h5>
+            <p class="texto-justificado" style="font-family: Roboto-Thin;"><small style="font-family: Roboto-Black; font-size: 20px;" >"</small>Ver tal cantidad de perrito tendría que ser una gran alegría para las personas. Cada día es una estaca al corazón, cada animal observado esta muerto o bajo mucho estrés, se puede sentir su miedo y ganas de escapar, todos acechados por el fuego, un enemigo que te convierte en una hormiga luchando contra un gigante.<small style="font-family: Roboto-Black; font-size: 20px;" >"</small></p>
+        </div>
+    </div>
+
+    <div class="card-testimonios">
+        <div class="face front">
+            <img src="img/testimonio_2.jpeg" alt="">
+            <h5 style="font-family: Roboto-Thin;">Alejandro: <small style="font-family: Roboto-Bold;">Adopción</small></h5>
+        </div>
+        <div class="face back">
+            <h5 style="font-family: Roboto-Bold;">Alejandro: <small style="font-family: Roboto-Thin;">Adopción</small></h5>
+            <p class="texto-justificado" style="font-family: Roboto-Thin;"><small style="font-family: Roboto-Black; font-size: 20px;" >"</small>Yo creo que es parte de la frustración de las personas, creo que ellos piensan que como la vida les debe algo, se tienen que desquitar con el más vulnerable, y en ese caso son los perros o cualquier animal, hasta niños, seres indefensos”, dice Silvia inconforme con las excusas que la gente llega a dar para abandonar mascotas<small style="font-family: Roboto-Black; font-size: 20px;" >"</small></p>
+        </div>
+    </div>
+
+    <div class="card-testimonios">
+        <div class="face front">
+            <img src="img/testimonio_3.jpeg" alt="">
+            <h5 style="font-family: Roboto-Thin;">Rodrigo: <small style="font-family: Roboto-Bold;">Adopción y donación</small></h5>
+        </div>
+        <div class="face back">
+            <h5 style="font-family: Roboto-Bold;">Rodrigo: <small style="font-family: Roboto-Thin;">Adopción y donación</small></h5>
+            <p class="texto-justificado" style="font-family: Roboto-Thin;"><small style="font-family: Roboto-Black; font-size: 20px;" >"</small>Se necesita mucha más ayuda las fundaciones, no hay recursos y convendría que ayudarán más, pero supongo que algún día lo harán eventualmente.<small style="font-family: Roboto-Black; font-size: 20px;" >"</small></p>
+        </div>
+    </div>
+
+    <div class="card-testimonios">
+        <div class="face front">
+            <img src="img/testimonio_4.jpeg" alt="">
+            <h5 style="font-family: Roboto-Thin;">Grupo de Voluntarios: <small style="font-family: Roboto-Bold;">Ayuda</small></h5>
+        </div>
+        <div class="face back">
+            <h5 style="font-family: Roboto-Bold;">Grupo de Voluntarios: <small style="font-family: Roboto-Thin;">Ayuda al Albergue</small></h5>
+            <p class="texto-justificado" style="font-family: Roboto-Thin;"><small style="font-family: Roboto-Black; font-size: 20px;" >"</small>Una fundación que ayuda a los animales en situación de calle a que sean adoptados por la gente, me llena de felicidad por la circunstancia que hay, a veces no hay recursos ni siquiera para tener más de un hijo, imagínate con los perros, la verdad es que les importa muy poco.<small style="font-family: Roboto-Black; font-size: 20px;" >"</small></p>
+        </div>
+    </div>
+</section>
+<!--FIN TESTIMONIOS-->
+<!--INICIO FOOTER-->
+<footer class="footer text-center py-4" style="background-image: url(img/fondo-pata-blanco.png);">
+    <div class="container">
+        <div class="row align-items-center py-5">
+            <div class="col-lg-4 text-center" style="color: #fff;">
+                <img src="img/logotipoblanco.png" alt="" width="400">
+            </div>
+            <div class="col-lg-4 my-3 my-lg-0 text-center">
+                <a class="btn btn-light btn-social mx-2 bi-instagram" href="https://www.instagram.com/huellitasenmivida/?igshid=YmMyMTA2M2Y%3D" target="_blank" aria-label="Instagram"></a>
+                <a class="btn btn-light btn-social mx-2 bi-facebook" href="https://m.facebook.com/HuellitasEnMiVidaSC" target="_blank" aria-label="Facebook"></a>
+                <a class="btn btn-light btn-social mx-2 bi-tiktok" href="https://www.tiktok.com/@huellitas_en_mi_vida?_t=8WEQC2BFahJ&_r=1" target="_blank" aria-label="TikTok"></a>
+                <a class="btn btn-light btn-social mx-2 bi-whatsapp" href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank" aria-label="Whatsapp"></a>
+                <a class="btn btn-light btn-social mx-2 bi-geo-alt-fill" href="https://goo.gl/maps/sSVHuHSjg4PcWm4x5" target="_blank" aria-label="Ubicación"></a>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a class="link-light text-decoration-none me-3" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><h5>Mihuellita1234@gmail.com</h5></a>
+                <br>
+                <a class="link-light text-decoration-none" href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank"><h5>(+591) 69154788 (+591) 60003262</h5></a>
+            </div>
+            
+        </div>
+    </div>
+    <h5 style="font-family: Roboto-Thin; color: #fff;">Copyright &copy;<small style="font-family: Roboto-Bold;"> Huellitas en Mi Vida 2022</small></h5>
+</footer>
+<!--FIN FOOTER-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script>
+window.addEventListener('DOMContentLoaded', event => {
+
+// Navbar
+var navbarShrink = function () {
+    const navbarCollapsible = document.
+    body.querySelector('#mainNav');
+    if (!navbarCollapsible) {
+        return;
+    }
+    if (window.scrollY === 0) {
+        navbarCollapsible.classList.remove('navbar-shrink')
+    } else {
+        navbarCollapsible.classList.add('navbar-shrink')
+    }
+
+};
+
+// Shrink the navbar 
+navbarShrink();
+
+// Shrink the navbar when page is scrolled
+document.addEventListener('scroll', navbarShrink);
+
+// Activate Bootstrap scrollspy on the main nav element
+const mainNav = document.body.querySelector('#mainNav');
+if (mainNav) {
+    new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav',
+        offset: 74,
+    });
+};
+
+// Collapse responsive navbar when toggler is visible
+const navbarToggler = document.body.querySelector('.navbar-toggler');
+const responsiveNavItems = [].slice.call(
+    document.querySelectorAll('#navbarResponsive .nav-link')
+);
+responsiveNavItems.map(function (responsiveNavItem) {
+    responsiveNavItem.addEventListener('click', () => {
+        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            navbarToggler.click();
+        }
+    });
+});
+
+// Activate SimpleLightbox plugin for portfolio items
+new SimpleLightbox({
+    elements: '#portfolio a.portfolio-box'
+});
+
+});
+  </script>
+
+<script>
+  const txts=document.querySelector(".animate-text").children,
+        txtsLen=txts.length;
+    let index=0;
+   const textInTimer=3000,
+         textOutTimer=2800;
+
+  function animateText() {
+     for(let i=0; i<txtsLen; i++){
+       txts[i].classList.remove("text-in","text-out");  
+     }
+     txts[index].classList.add("text-in");
+
+     setTimeout(function(){
+         txts[index].classList.add("text-out");              
+     },textOutTimer)
+
+     setTimeout(function(){
+
+       if(index == txtsLen-1){
+           index=0;
+         }
+        else{
+            index++;
+          }
+         animateText();
+     },textInTimer); 
+  }
+  
+  window.onload=animateText;
+</script>
+</div>
+</body>
+</html>

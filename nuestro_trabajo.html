@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas en mi vida</title>
+    <link rel="icon" type="image/x-icon" href="img/logotipo-menu.jpg"/>
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--ESTILOS FONT-->
+    <link rel="stylesheet" href="css/font.css">
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="js/javascript.jss">
+    <!--BOOTSTRAP 5.0.0-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet"/>
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!--Icono Precarga-->
+    <script>
+        $(window).on("load", function(){
+            $(".contenidos").css("opacity", 1) 
+            $("#precarga").css("display", "none");
+        });
+    </script>
+</head>
+<body>
+    <div id="precarga">
+        <img src="img/precarga.gif" alt="" width="200" height="200">
+    </div>
+<div class="contenidos">
+<!--INICIO NAVEGADOR-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container"> <!--style="background-color: red;"-->
+                
+            <a href="index.html" class="px-4">
+                <img src="img/logotipo-menu.jpg" alt="">
+            </a>
+            <a class="navbar-brand" href="#page-top">Huellitas en Mi Vida</a>
+
+            <button class="navbar-toggler navbar-toggler-right" style="border: none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="bi bi-three-dots"></span></button>
+
+                <div class="collapse navbar-collapse " id="navbarResponsive" style="font-family: Roboto-Bold;">
+                    <ul class="navbar-nav ms-auto my-0 my-lg-3">
+                        <li class="nav-item"><a class="nav-link p-2" href="index.html">Inicio</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle p-2" href="" role="button" data-bs-toggle="dropdown" aria-expanded="true">Nosotros</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="nosotros.html#mision">Misión</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#vision">Visión</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#principios">Principios y valores</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#nuestra-historia">Nuestra Historia</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#nuestro-equipo">Nuestro Equipo</a></li>
+                                <li><a class="dropdown-item" href="nosotros.html#convenios">Convenios y alianzas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle p-2" style="color:#da0101" href="nuestro_trabajo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestro Trabajo</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html">Nuestro Trabajo</li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#eventos">Eventos y Actividades</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#galeria">Galeria</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#adopciones">Adopciones</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#sebusca">Se Busca</a></li>
+                                <li><a class="dropdown-item" href="nuestro_trabajo.html#casos">Casos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link p-2" href="donacion.html">Donación</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="campañas.html">Campañas</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="redes_sociales.html">Redes Sociales</a></li>
+                    
+                    </ul>
+                    <div class="col-md-3 text-end"> 
+                
+                <a class="btn btn-danger" href="login.php" style="font-family: Roboto-Thin; border-radius: 50px;">Iniciar Sesion</a>
+          </div>
+                </div>
+        </div>
+        </div>
+    </nav>
+<!--FIN NAVEGADOR-->
+<!--INICIO REDES SOCIALES FLOTANTES-->
+<div class="flotante">
+<input type="checkbox" id="btn-mas">
+<div class="redes">
+    <a href="https://m.facebook.com/HuellitasEnMiVidaSC" target="_blank" class="bi bi-facebook"></a>
+    <a href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank" class="bi bi-whatsapp"></a>
+    <a href="https://www.instagram.com/huellitasenmivida/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="bi bi-instagram"></a>
+    <a href="https://www.tiktok.com/@huellitas_en_mi_vida?_t=8WEQC2BFahJ&_r=1" target="_blank" class="bi bi-tiktok"></a>
+    <a href="https://goo.gl/maps/sSVHuHSjg4PcWm4x5" class="bi bi-geo-alt-fill"></a>
+    <a href="donacion.html" target="_blank" class="bi bi-heart-fill"></a>
+</div>
+<div class="btn-mas">
+    <label for="btn-mas" class="bi bi-plus"></label>
+</div>
+</div>
+<!--FIN REDES SOCIALES FLOTANTES-->
+<!--INICIO NUESTRO TRABAJO-->
+<section class="titulo m-5" id="">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0" style="font-family: Roboto-Bold;">Nuestro Trabajo</h2>
+        <hr class="divider">
+        <p class="text-center" style="font-family: Roboto-Light; font-size: 25px;">Nuestro trabajo que realizamos desde <small style="font-family: Roboto-Bold; color: #da0101;">rescatar animal, proveer refugio, rehabilitación, esterilización, asistencia médica</small> así promoviendo el bienestar animal.</p>
+    </div>
+</section>
+<!--FIN NUESTRO TRABAJO-->
+<!--INICIO EVENTOS ACTIVIDADES
+FIN EVENTOS ACTIVIDADES-->
+<!--INICIO GALERIA-->
+<section class="titulo m-5 pb-1" id="galeria">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0" style="font-family: Roboto-Bold;">Galería</h2>
+        <hr class="divider">
+    </div>
+</section>
+<div class="portafolio pb-5" id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria1.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria1.jpg" alt="..."/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Ayuda</div>
+                        <div class="project-name">Donación de comida para mascotas</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria2.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria2.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Belleza</div>
+                        <div class="project-name p-5">Los perros no son toda tu vida, pero hacen tu vida completa.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria3.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria3.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Aprecialos</div>
+                        <div class="project-name p-5">La grandeza de una nación y su progreso moral puede ser juzgado por la forma en que sus animales son tratados.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria4.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria4.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Piensa diferente</div>
+                        <div class="project-name p-5">No importa que tan poco dinero tengas y cuan pocas pertenencias tengas, el tener un perro te hace rico.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria5.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria5.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Ellos nos aman</div>
+                        <div class="project-name p-5">Su amor es infinito puro e incondicional, él es un eterno cachorro que solo piensa en amarnos.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria6.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria6.jpg" alt="..." />
+                    <div class="portfolio-box-caption p-3">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name p-5">¿Has visto la mirada de unos enamorados? Es la misma que la que te pone tu perro cuando estás a su lado.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria7.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria7.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Amo a los perros porque nunca le hacen sentir a uno que los haya tratado mal.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria8.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria8.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Dime como eres con los animales y te diré qué tipo de persona eres.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/galeria9.jpg" title="Project Name">
+                    <img class="img-fluid" src="img/galeria9.jpg" alt="..." />
+                    <div class="portfolio-box-caption p-3">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">¿Crees que los perros irán al cielo? ¡Estarán ahí mucho antes que cualquiera de nosotros!</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FIN GALERIA-->
+
+<!--INICIO ADOPCIONES-->
+<main class="pb-5" style="background-image: url(img/fondo.png);">
+<section class="titulo m-5 pb-1" id="adopciones">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0" style="font-family: Roboto-Bold;">Adopciones</h2>
+        <hr class="divider">
+        <p class="text-center" style="font-size: 40px; font-family: Roboto-Light;">Ellos <small style="font-family: Roboto-Bold; color: #da0101;">necesitan de tu ayuda</small> ¡Adopta!</p>
+    </div>
+</section>
+<section>
+    <div class="body__page">
+            <div class="container container__card">
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Snoopy</small></h4>
+                        <p>Snoopy es un perrito de 1 año, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion3.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Toto</small></h4>
+                        <p>Toto. es un perrito recogido de la calle, tiene 2 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion4.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion5.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion6.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion7.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion8.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion9.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion10.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion11.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/adopcion12.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Pluto</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Adoptar</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+</section>
+</main>
+<!--FIN ADOPCIONES-->
+<!--INICIO SE BUSCA-->
+<section class="titulo m-5 pb-1" id="sebusca">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0" style="font-family: Roboto-Bold;">SE BUSCA</h2>
+        <hr class="divider">
+        <p class="text-center" style="font-size: 40px; font-family: Roboto-Light;">Si los ves o tienes información <small style="font-family: Roboto-Bold; color: #da0101;">comunicate con nosotros</small></p>
+    </div>
+</section>
+<section>
+    <div class="body__page">
+            <div class="container container__card">
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/sebusca1.jpeg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Se busca: <small style="font-family: Roboto-Bold; color: #da0101;">Duko</small></h4>
+                        <p>Se perdio el 21 de enero a horas 06:15 de la mañana, sali sin rumbo, tiene epilepsia, toma medicación a diario.</p>
+                        <a class="btn btn-outline-danger" href="">Contactar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/sebusca4.png" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Se busca: <small style="font-family: Roboto-Bold; color: #da0101;">Puerco</small></h4>
+                        <p>Se extravio el sabado 8 del 10, en inmediaciones de la Av. Rocha y Coronado (entre 2° y 3° anillo).</p>
+                        <a class="btn btn-outline-danger" href="">Contactar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/sebusca3.png" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Se busca: <small style="font-family: Roboto-Bold; color: #da0101;">Sofia</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Contactar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>
+<!--FIN SE BUSCA-->
+<!--INICIO CASOS-->
+<main style="background-image: url(img/fondo3.jpg);">
+    <section class="titulo m-5 pb-1" id="casos">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">CASOS</h2>
+        <hr class="divider">
+        <p class="text-center" style="font-size: 40px; font-family: Roboto-Light;">Todos merecemos una segunda oportunidad <small style="font-family: Roboto-Bold; color: #da0101;">¡Ellos te necesitan!</small></p>
+    </div>
+</section>
+<section>
+    <div class="body__page">
+            <div class="container container__card">
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/casos5.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Ayuda a: <small style="font-family: Roboto-Bold; color: #da0101;">Pamperito</small></h4>
+                        <p>Pamperito es un perrito con desnutrición, que fue sobreviviendo día tras días.</p>
+                        <a class="btn btn-outline-danger" href="">Quiero ayudar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/casos2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Ayuda a: <small style="font-family: Roboto-Bold; color: #da0101;">Marley</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Quiero ayudar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/casos4.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Ayuda a: <small style="font-family: Roboto-Bold; color: #da0101;">Golfo</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Quiero ayudar</a>
+                    </div>
+                </div>
+
+                <div class="card c1">
+                    <div class="icon">
+                        <img src="img/casos3.jpg" alt="" width="100%">
+                    </div>
+                    <div class="info__description">
+                        <h4 style="font-family: Roboto-Bold;">Nombre: <small style="font-family: Roboto-Bold; color: #da0101;">Slinky</small></h4>
+                        <p>Pluto es un perrito recogido de la calle, tiene 6 meses, es muy jugueton ademas tiene todas sus vacunas al día.</p>
+                        <a class="btn btn-outline-danger" href="">Quiero ayudar</a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+</section>
+</main>
+<!--FIN CASOS-->
+<!--INICIO FOOTER-->
+<footer class="footer text-center py-4" style="background-image: url(img/fondo-pata-blanco.png);">
+    <div class="container">
+        <div class="row align-items-center py-5">
+            <div class="col-lg-4 text-center" style="color: #fff;">
+                <img src="img/logotipoblanco.png" alt="" width="400">
+            </div>
+            <div class="col-lg-4 my-3 my-lg-0 text-center">
+                <a class="btn btn-light btn-social mx-2 bi-instagram" href="https://www.instagram.com/huellitasenmivida/?igshid=YmMyMTA2M2Y%3D" target="_blank" aria-label="Instagram"></a>
+                <a class="btn btn-light btn-social mx-2 bi-facebook" href="https://m.facebook.com/HuellitasEnMiVidaSC" target="_blank" aria-label="Facebook"></a>
+                <a class="btn btn-light btn-social mx-2 bi-tiktok" href="https://www.tiktok.com/@huellitas_en_mi_vida?_t=8WEQC2BFahJ&_r=1" target="_blank" aria-label="TikTok"></a>
+                <a class="btn btn-light btn-social mx-2 bi-whatsapp" href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank" aria-label="Whatsapp"></a>
+                <a class="btn btn-light btn-social mx-2 bi-geo-alt-fill" href="https://goo.gl/maps/sSVHuHSjg4PcWm4x5" target="_blank" aria-label="Ubicación"></a>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a class="link-light text-decoration-none me-3" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><h5>Mihuellita1234@gmail.com</h5></a>
+                <br>
+                <a class="link-light text-decoration-none" href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank"><h5>(+591) 69154788 (+591) 60003262</h5></a>
+            </div>
+            
+        </div>
+    </div>
+    <h5 style="font-family: Roboto-Thin; color: #fff;">Copyright &copy;<small style="font-family: Roboto-Bold;"> Huellitas en Mi Vida 2022</small></h5>
+</footer>
+<!--FIN FOOTER-->
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("abajo",window.scrollY>0);
+    })
+
+  </script>
+  <script>
+window.addEventListener('DOMContentLoaded', event => {
+
+// Navbar
+var navbarShrink = function () {
+    const navbarCollapsible = document.body.querySelector('#mainNav');
+    if (!navbarCollapsible) {
+        return;
+    }
+    if (window.scrollY === 0) {
+        navbarCollapsible.classList.remove('navbar-shrink')
+    } else {
+        navbarCollapsible.classList.add('navbar-shrink')
+    }
+
+};
+
+// Shrink the navbar 
+navbarShrink();
+
+// Shrink the navbar when page is scrolled
+document.addEventListener('scroll', navbarShrink);
+
+// Activate Bootstrap scrollspy on the main nav element
+const mainNav = document.body.querySelector('#mainNav');
+if (mainNav) {
+    new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav',
+        offset: 74,
+    });
+};
+
+// Collapse responsive navbar when toggler is visible
+const navbarToggler = document.body.querySelector('.navbar-toggler');
+const responsiveNavItems = [].slice.call(
+    document.querySelectorAll('#navbarResponsive .nav-link')
+);
+responsiveNavItems.map(function (responsiveNavItem) {
+    responsiveNavItem.addEventListener('click', () => {
+        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            navbarToggler.click();
+        }
+    });
+});
+
+// Activate SimpleLightbox plugin for portfolio items
+new SimpleLightbox({
+    elements: '#portfolio a.portfolio-box'
+});
+
+});
+
+  </script>
+</div>
+</body>
+</html>
